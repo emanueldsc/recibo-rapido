@@ -1,0 +1,76 @@
+.row {
+    display: block;
+}
+
+.locacal-container{
+    border: 1px solid lightgray;
+    border-radius: 4px;
+    padding: 16px;
+
+    .top-content {
+        margin-bottom: 16px;
+        .row {
+            justify-content: space-between;
+            padding: 16px 8px;
+
+            .valor-box {
+                width: 40%;
+                display: flex;
+                gap: 8px;
+                input {
+                    flex-grow: 1;
+                }
+            }
+        }
+    }
+    
+
+    .dados, .dados-emitente, .local-data {
+        border: 1px solid lightgray;
+        padding: 8px;
+        padding-top: 16px;
+        padding-bottom: 16px;
+        border-radius: 4px;
+        border-width: 2px;
+    }
+
+    .local-data{
+        margin: 8px 0;
+        padding-bottom: 8px !important;
+    }
+
+    .row {
+        display: flex;
+        margin-bottom:20px;
+        gap: 10px;
+        input {
+            flex-grow: 1;
+        }
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+
+    .local-data {
+        padding: 16px 8px;         
+        display: flex;
+        gap: 8px;
+        input {
+            flex-grow: 1;
+        }
+
+        sub{
+            position: relative;
+            top: 8px;
+        }
+    }
+
+    input{
+        font-style: italic;
+        outline: none;
+        border: none;
+        border-bottom: 1px solid lightgray;
+        width: auto;
+        min-width: auto;
+    }
+}
