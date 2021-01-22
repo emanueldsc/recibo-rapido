@@ -18,12 +18,10 @@
     
     .content {
         grid-area: content;
-        height: 2000px;
 
         .top-bar {
             margin-bottom: 16px;
             display: block;
-            position: sticky;
             top: 5px;
         }
     }

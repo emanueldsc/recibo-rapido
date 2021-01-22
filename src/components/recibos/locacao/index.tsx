@@ -9,12 +9,12 @@ export const Locacao = () => {
 
             <div className="top-content">
                 <div className="row">
-                    <div className="qrcode">
-                        <img src="#" alt="#qrcode" className="qr-image" />
-                    </div>
                     <div className="valor-box">
                         <label htmlFor="valor">Valor </label>
-                        <input type="text" />
+                        <input type="text" placeholder="0,00" />
+                    </div>
+                    <div className="qrcode">
+                        <img src="#" alt="#qrcode" className="qr-image" />
                     </div>
                 </div>
             </div>

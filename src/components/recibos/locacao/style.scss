@@ -2,7 +2,7 @@
     display: block;
 }
 
-.locacal-container{
+.locacal-container {
     border: 1px solid lightgray;
     border-radius: 4px;
     padding: 16px;
@@ -11,21 +11,31 @@
         margin-bottom: 16px;
         .row {
             justify-content: space-between;
-            padding: 16px 8px;
+            padding: 0 8px;
 
             .valor-box {
                 width: 40%;
                 display: flex;
+                align-items: flex-end;
                 gap: 8px;
                 input {
                     flex-grow: 1;
                 }
             }
         }
+
+        .qr-image {
+            background-color: blue;
+            min-width: 100px;
+            min-height: 100px;
+        }
+        
+        
     }
     
-
-    .dados, .dados-emitente, .local-data {
+    .dados,
+    .dados-emitente,
+    .local-data {
         border: 1px solid lightgray;
         padding: 8px;
         padding-top: 16px;
@@ -34,14 +44,14 @@
         border-width: 2px;
     }
 
-    .local-data{
+    .local-data {
         margin: 8px 0;
         padding-bottom: 8px !important;
     }
 
     .row {
         display: flex;
-        margin-bottom:20px;
+        margin-bottom: 20px;
         gap: 10px;
         input {
             flex-grow: 1;
@@ -52,20 +62,20 @@
     }
 
     .local-data {
-        padding: 16px 8px;         
+        padding: 16px 8px;
         display: flex;
         gap: 8px;
         input {
             flex-grow: 1;
         }
 
-        sub{
+        sub {
             position: relative;
             top: 8px;
         }
     }
 
-    input{
+    input {
         font-style: italic;
         outline: none;
         border: none;
